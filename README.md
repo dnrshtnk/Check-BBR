@@ -17,29 +17,23 @@
 
 ### Вариант 1: Одна команда через curl
 
-<code>
-curl -fsSL https://raw.githubusercontent.com/dnrshtnk/main/bbr-check.sh | sudo bash
-</code>
+```bash
+curl -fsSL https://raw.githubusercontent.com/dnrshtnk/Check-BBR/main/bbr-check.sh | sudo bash
+```
 
 ### Вариант 2: Одна команда через wget
 
-<code>
-wget -qO- https://raw.githubusercontent.com/dnrshtnk/main/bbr-check.sh | sudo bash
-</code>
+```bash
+wget -qO- https://raw.githubusercontent.com/dnrshtnk/Check-BBR/main/bbr-check.sh | sudo bash
+```
 
 ### Вариант 3: Скачать и запустить
 
-<code>
-curl -fsSL https://raw.githubusercontent.com/dnrshtnk/main/bbr-check.sh -o bbr-check.sh
-</code>
-
-<code>
+```bash
+curl -fsSL https://raw.githubusercontent.com/dnrshtnk/Check-BBR/main/bbr-check.sh -o bbr-check.sh
 chmod +x bbr-check.sh
-</code>
-
-<code>
 sudo ./bbr-check.sh
-</code>
+```
 
 ## 📖 Использование
 
